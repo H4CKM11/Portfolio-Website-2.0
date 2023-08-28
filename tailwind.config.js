@@ -8,6 +8,9 @@ module.exports = {
       },
       colors: {
         moneyGreen :'#00d631'
+      },
+      screens : {
+        'SurfaceResolution': '1350px'
       }
     },
   },
