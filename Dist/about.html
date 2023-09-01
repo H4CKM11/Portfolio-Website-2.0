@@ -21,21 +21,61 @@
           <a href="/Dist/about.html" class="hover:text-moneyGreen">About Me</a>
         </header>
         <main class="p-7 flex flex-col gap-8">
-          <section>
-            <h2 class="text-2xl font-bold">Eduardo Martinez</h2>
-            <p class="text-xl font-normal">Software Engineer & Web Developer</p>
-          </section>
-          <article class="flex gap-3">
-            <img src="../Dist/profilePicture.jpg" class="w-36 rounded-lg" />
-            <section class="lg:w-1/2">
-              <p>
-                Im a full-time Software Engineering Student. I'm currently a
-                Senior with an expected graduation date of May 10th, 2024! My
-                main aspirations is to be a Web/App Developer that help solve
-                real world problems.
-              </p>
+
+
+
+          <!-- Start Of Top Grid -->
+          <section class="grid grid-cols-3 gap-3">
+            <section class="col-span-2 flex flex-col justify-between">
+              <article>
+                <h2 class="text-2xl font-bold">Eduardo Martinez</h2>
+                <p class="text-xl font-normal">
+                  Software Engineer & Web Developer
+                </p>
+                <p class="mt-3">
+                  Im a full-time Software Engineering Student. I'm currently a
+                  Senior with an expected graduation date of May 10th, 2024! My
+                  main aspirations is to be a Web/App Developer that help solve
+                  real world problems.
+                </p>
+              </article>
+              <article class="mb-3">
+                <h2 class="text-2xl font-bold">Experience Set</h2>
+                <div class="flex gap-3">
+                  <p class="px-4 py-2 bg-slate-200 rounded-md shadow-md font-medium">Vue</p>
+                  <p class="px-4 py-2 bg-slate-200 rounded-md shadow-md font-medium">Angular</p>
+                  <p class="px-4 py-2 bg-slate-200 rounded-md shadow-md font-medium">C-Sharp</p>
+                </div>
+              </article>
             </section>
-          </article>
+            <img src="../Dist/profilePicture.jpg" class="rounded-lg w-60" />
+
+
+
+            <!-- Start of Second Row of Grid -->
+            <table class="min-w-full col-span-2">
+              <thead>
+                  <tr class="text-left">
+                      <th class="px-6 py-3 bg-gray-100 border-b border-gray-200 text-gray-600">Name</th>
+                      <th class="px-6 py-3 bg-gray-100 border-b border-gray-200 text-gray-600">Phone Number</th>
+                      <th class="px-6 py-3 bg-gray-100 border-b border-gray-200 text-gray-600">Email</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">John Doe</td>
+                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">30</td>
+                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">john@example.com</td>
+                  </tr>
+                  <tr>
+                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">Jane Smith</td>
+                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">25</td>
+                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">jane@example.com</td>
+                  </tr>
+                  <!-- Add more rows here -->
+              </tbody>
+          </table>
+          </section>
         </main>
       </div>
       <!-- Footer -->
