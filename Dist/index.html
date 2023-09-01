@@ -1,96 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="output.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-    <body class="font-poppins bg-slate-100 text-[15px]">
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-poppins bg-slate-100 text-[15px]">
+    <div class="flex flex-col justify-between h-screen">
+      <div>
+        <!-- Top Nav Bar -->
+        <header class="shadow-md p-6 text-lg bg-white flex justify-between">
+          <a href="/">Eduardo Martinez</a>
+          <a href="/Dist/about.html" class="hover:text-moneyGreen">About Me</a>
+        </header>
+        <!-- Main Content -->
+        <div class="p-7">
+          <h2 class="font-bold text-lg">Front End Work</h2>
+          <p>Latest to Oldest</p>
 
-        <div class="flex flex-col justify-between h-screen">
-                <div>
-                    <!-- Top Nav Bar -->
-                    <div class="shadow-md p-6 text-lg bg-white">
-                            <h1>Eduardo Martinez</h1>
-                    </div>
-                    <!-- Main Content -->
-                    <div class="p-7">
-                        <h2 class="font-bold text-lg">Front End Work</h2>
-                        <p>Latest to Oldest</p>
-
-
-
-                        <div class="grid SurfaceResolution:grid-cols-3 2xl:grid-cols-4 gap-4 mt-2">
-                            <!-- Front End Card -->
-                            <div class="bg-white p-6 rounded-lg shadow-lg">
-                              <div class="relative border rounded-lg shadow-md">
-                                  <img src="../Dist/frontend.png" />
-                                  <div class="flex absolute bottom-2 right-3 gap-2">
-                                      <img src="../Dist/angular-icon.svg" class="w-8"/>
-                                      <img src="../Dist/tailwind-css-icon.svg" class=" w-10 "/>
-                                  </div>
-                              </div>
-                              <h2 class="text-left font-bold text-xl mt-4">Administrative Dashboard</h2>
-                              <div class="flex text-lg gap-2">
-                                <p>Github Repo: </p>
-                                <a href="https://github.com/H4CKM11/adminDashboard" class="hover:text-moneyGreen">View</a>
-                              </div>
-                              <div class="flex text-lg gap-2">
-                                <p>Demo: </p>
-                                <a href="https://one.eduardomartinez13.com/" class="hover:text-moneyGreen">View</a>
-                              </div>
-                            </div>
-
-                            <!-- Front End Card -->
-                            <div class="bg-white p-6 rounded-lg shadow-lg">
-                                <div class="relative border rounded-lg shadow-md">
-                                    <img src="../Dist/frontend3.png" />
-                                    <div class="flex absolute bottom-2 right-3 gap-2">
-                                        <img src="../Dist/angular-icon.svg" class="w-8"/>
-                                        <img src="../Dist/tailwind-css-icon.svg" class=" w-10 "/>
-                                    </div>
-                                </div>
-                                <h2 class="text-left font-bold text-xl mt-4">Volunteering Management System</h2>
-                                <div class="flex text-lg gap-2">
-                                  <p>Github Repo: </p>
-                                  <a href="https://github.com/H4CKM11/Volunteer_Management_System" class="hover:text-moneyGreen">View</a>
-                                </div>
-                                <div class="flex text-lg gap-2">
-                                  <p>Demo: </p>
-                                  <a href="https://one.eduardomartinez13.com/" class="hover:text-moneyGreen">View</a>
-                                </div>
-                              </div>
-
-
-
-                            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                                <p class="text-2xl font-bold">{{ number }}</p>
-                            </div>
-                            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                                <p class="text-2xl font-bold">{{ number }}</p>
-                            </div>
-                            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                                <p class="text-2xl font-bold">{{ number }}</p>
-                            </div>
-                          </div>
-                    </div>
+          <section
+            class="grid SurfaceResolution:grid-cols-3 2xl:grid-cols-4 gap-4 mt-2"
+          >
+            <!-- Front End Card -->
+            <article class="bg-white p-6 rounded-lg shadow-lg">
+              <div class="relative border rounded-lg shadow-md">
+                <img src="../Dist/frontend.png" />
+                <div class="flex absolute bottom-2 right-3 gap-2">
+                  <img src="../Dist/angular-icon.svg" class="w-8" />
+                  <img src="../Dist/tailwind-css-icon.svg" class="w-10" />
                 </div>
+              </div>
+              <h2 class="text-left font-bold text-xl mt-4">
+                Administrative Dashboard
+              </h2>
+              <div class="flex text-lg gap-2">
+                <p>Github Repo:</p>
+                <a
+                  href="https://github.com/H4CKM11/adminDashboard"
+                  class="hover:text-moneyGreen"
+                  >View</a
+                >
+              </div>
+              <div class="flex text-lg gap-2">
+                <p>Demo:</p>
+                <a
+                  href="https://one.eduardomartinez13.com/"
+                  class="hover:text-moneyGreen"
+                  >View</a
+                >
+              </div>
+            </article>
 
+            <!-- Front End Card -->
+            <article class="bg-white p-6 rounded-lg shadow-lg">
+              <div class="relative border rounded-lg shadow-md">
+                <img src="../Dist/frontend3.png" />
+                <div class="flex absolute bottom-2 right-3 gap-2">
+                  <img src="../Dist/angular-icon.svg" class="w-8" />
+                  <img src="../Dist/tailwind-css-icon.svg" class="w-10" />
+                </div>
+              </div>
+              <h2 class="text-left font-bold text-xl mt-4">
+                Volunteering Management System
+              </h2>
+              <div class="flex text-lg gap-2">
+                <p>Github Repo:</p>
+                <a
+                  href="https://github.com/H4CKM11/Volunteer_Management_System"
+                  class="hover:text-moneyGreen"
+                  >View</a
+                >
+              </div>
+              <div class="flex text-lg gap-2">
+                <p>Demo:</p>
+                <a
+                  href="https://one.eduardomartinez13.com/"
+                  class="hover:text-moneyGreen"
+                  >View</a
+                >
+              </div>
+            </article>
 
-
-
-
-                
-            <!-- Bot Nav Bar Mobile -->
-            <div class="p-6 text-lg bg-white flex gap-3">
-                    <a href="https://github.com/H4CKM11">Github</a>
-                    <a href="https://www.linkedin.com/in/eduardo-martinez13/">Linked</a>
-            </div>
-
+            <!-- Front End Card -->
+            <article class="bg-white p-6 rounded-lg shadow-lg">
+              <div class="relative border rounded-lg shadow-md">
+                <img src="../Dist/frontend2.png" />
+                <div class="flex absolute bottom-2 right-3 gap-2">
+                  <img src="../Dist/html-icon.svg" class="w-8" />
+                </div>
+              </div>
+              <h2 class="text-left font-bold text-xl mt-4">
+                Volunteering Management System
+              </h2>
+              <div class="flex text-lg gap-2">
+                <p>Github Repo:</p>
+                <a
+                  href="https://github.com/H4CKM11/Porfolio-Website-1.0"
+                  class="hover:text-moneyGreen"
+                  >View</a
+                >
+              </div>
+              <div class="flex text-lg gap-2">
+                <p>Demo:</p>
+                <a
+                  href="https://two.eduardomartinez13.com/"
+                  class="hover:text-moneyGreen"
+                  >View</a
+                >
+              </div>
+            </article>
+          </section>
         </div>
-    </body>
+
+        <!-- Front End Card End -->
+
+        <!-- Back End Card Start -->
+        <div class="p-7">
+          <h2 class="font-bold text-lg">Back End Work</h2>
+          <p>Latest to Oldest</p>
+
+          <section
+            class="grid SurfaceResolution:grid-cols-3 2xl:grid-cols-4 gap-4 mt-2"
+          >
+            <article class="bg-white p-6 rounded-lg shadow-lg">
+              <div class="relative border rounded-lg shadow-md">
+                <img src="../Dist/frontend3.png" />
+                <div class="flex absolute bottom-2 right-3 gap-2">
+                  <img src="../Dist/c-sharp.svg" class="w-8" />
+                </div>
+              </div>
+              <h2 class="text-left font-bold text-xl mt-4">
+                Volunteering Management System
+              </h2>
+              <div class="flex text-lg gap-2">
+                <p>Github Repo:</p>
+                <a
+                  href="https://github.com/H4CKM11/Volunteer_Management_System"
+                  class="hover:text-moneyGreen"
+                  >View</a
+                >
+              </div>
+              <div class="flex text-lg gap-2">
+                <p>Demo:</p>
+                <a
+                  href="https://one.eduardomartinez13.com/"
+                  class="hover:text-moneyGreen"
+                  >View</a
+                >
+              </div>
+            </article>
+          </section>
+
+          <!-- End Of Backend Card -->
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="p-6 text-lg bg-white flex gap-3">
+        <a href="https://github.com/H4CKM11">Github</a>
+        <a href="https://www.linkedin.com/in/eduardo-martinez13/">Linked</a>
+      </footer>
+    </div>
+  </body>
 </html>
