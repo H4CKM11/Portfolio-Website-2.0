@@ -20,13 +20,12 @@
           <a href="/">Projects</a>
           <a href="/Dist/about.html" class="hover:text-moneyGreen">About Me</a>
         </header>
-        <main class="p-7 flex flex-col gap-8">
+        <main class="p-11 flex flex-col gap-8">
 
 
 
-          <!-- Start Of Top Grid -->
-          <section class="grid grid-cols-3 gap-3">
-            <section class="col-span-2 flex flex-col justify-between">
+          <!-- Start Description -->
+            <section class="flex flex-col gap-5">
               <article>
                 <h2 class="text-2xl font-bold">Eduardo Martinez</h2>
                 <p class="text-xl font-normal">
@@ -39,8 +38,8 @@
                   real world problems.
                 </p>
               </article>
+              
               <article class="mb-3">
-                <h2 class="text-2xl font-bold">Experience Set</h2>
                 <div class="flex gap-3">
                   <p class="px-4 py-2 bg-slate-200 rounded-md shadow-md font-medium">Vue</p>
                   <p class="px-4 py-2 bg-slate-200 rounded-md shadow-md font-medium">Angular</p>
@@ -48,34 +47,44 @@
                 </div>
               </article>
             </section>
-            <img src="../Dist/profilePicture.jpg" class="rounded-lg w-60" />
 
 
-
-            <!-- Start of Second Row of Grid -->
-            <table class="min-w-full col-span-2">
+            <!-- Start of table -->
+            <h2 class="text-2xl font-bold">References</h2>
+            <table class="min-w-full hidden lg:table row">
               <thead>
                   <tr class="text-left">
                       <th class="px-6 py-3 bg-gray-100 border-b border-gray-200 text-gray-600">Name</th>
+                      <th class="px-6 py-3 bg-gray-100 border-b border-gray-200 text-gray-600">Title</th>
                       <th class="px-6 py-3 bg-gray-100 border-b border-gray-200 text-gray-600">Phone Number</th>
                       <th class="px-6 py-3 bg-gray-100 border-b border-gray-200 text-gray-600">Email</th>
                   </tr>
               </thead>
               <tbody>
-                  <tr>
-                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">John Doe</td>
-                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">30</td>
-                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">john@example.com</td>
+                  <tr class="text-left hover:bg-gray-200 transition ease-in-out">
+                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">Gang Qian</td>
+                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">Head of Department of Computer Science</td>
+                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">(405) 974-5716</td>
+                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">gqian@uco.edu</td>
                   </tr>
-                  <tr>
-                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">Jane Smith</td>
-                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">25</td>
-                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">jane@example.com</td>
-                  </tr>
+
                   <!-- Add more rows here -->
               </tbody>
-          </table>
-          </section>
+            </table>
+
+            <div class="lg:hidden">
+              <div class="grid grid-cols-2 gap-5">
+                <p>Name:</p>
+                <p>Gang Qian</p>
+                <p>Title:</p>
+                <p>Head of Department of Computer Science</p>
+                <p>Phone:</p>
+                <p>(405) 974-5716</p>
+                <p>Email:</p>
+                <p>gqian@uco.edu</p>
+              </div>
+              </div>
+            </div>
         </main>
       </div>
       <!-- Footer -->
